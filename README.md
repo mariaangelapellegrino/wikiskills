@@ -1,4 +1,7 @@
 # wikiskills
+
+This repository behaves as a support material for the paper entitled "Entity and Relation Linking Strategies for Vocal Assistants Question-Answering on Wikidata" submitted (and under evaluation) as research paper at the Wikidata Workshop at ISWC 2020.
+
 The Alexa skill presented in this repository has been implemented by a [generator](https://github.com/mariaangelapellegrino/virtual_assistant_generator) freely available on GitHub. 
 It is a generator of Virtual Assistants (VA) extensions to reply natural lanuage (NL) questions by querying SPARQL endpoints. The implemented mechanism to move from NL to SPARQL queries is knolwedge graph (KG) independent, and it can be easily configured to query Wikidata. 
 
