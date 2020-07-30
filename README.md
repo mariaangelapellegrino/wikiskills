@@ -2,6 +2,8 @@
 The Alexa skill presented in this repository has been implemented by a [generator](https://github.com/mariaangelapellegrino/virtual_assistant_generator) freely available on GitHub. 
 It is a generator of Virtual Assistants (VA) extensions to reply natural lanuage (NL) questions by querying SPARQL endpoints. The implemented mechanism to move from NL to SPARQL queries is knolwedge graph (KG) independent, and it can be easily configured to query Wikidata. 
 
+The file QALD-7 is the updated version of the original training set according to the WIkidata snapshot in July 2020.
+
 ## Dictionary-based WikiSkill
 In its original version, the skill produced by the generator implements a dictionary-based solution where the pre-computed dictionary must be provided at the generator configuration time. The dictionary is both used to generate the interaction model, and it is stored in the back end to solve entities upon request. The dictionary deals with the entity linking (EL) and relation linking (RL) tasks. It has to provide the entity and predicate labels (as dictionary keys) and the related URL(s) (as a sorted list specified as dictionary values). Moreover, you can also specify a list of synonyms for each label.
 
